@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>MiniTools Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🧰 MiniTools Store</h1>
+    <p>Kleine Tools, die dein Leben einfacher machen</p>
+  </header>
+
+  <main class="grid">
+
+    <!-- Tool 1 -->
+    <div class="card">
+      <h2>🎉 Geburtstagskarten Generator</h2>
+      <p>Erstelle personalisierte Karten in Sekunden.</p>
+      <span class="price">2€</span>
+      <button onclick="buy('karte')">Kaufen</button>
+    </div>
+
+    <!-- Tool 2 -->
+    <div class="card">
+      <h2>🧾 Invoice Generator</h2>
+      <p>Erstelle Rechnungen als PDF.</p>
+      <span class="price">10€</span>
+      <button onclick="buy('invoice')">Kaufen</button>
+    </div>
+
+    <!-- Tool 3 -->
+    <div class="card">
+      <h2>📅 Wochenplan Tool</h2>
+      <p>Plane deine Woche automatisch.</p>
+      <span class="price">5€</span>
+      <button onclick="buy('plan')">Kaufen</button>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
